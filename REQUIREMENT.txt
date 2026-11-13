@@ -1,0 +1,18 @@
+import gc
+import shutil
+import tempfile
+import importlib.util
+import warnings
+import numpy as np
+import pandas as pd
+import xarray as xr
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import geopandas as gpd
+import shapely
+from matplotlib.ticker import MaxNLocator, FuncFormatter, FormatStrFormatter
+from matplotlib.lines import Line2D
+from matplotlib.patches import Patch
+from scipy import stats
+from scipy.signal import find_peaks
+(JUPYTER)
